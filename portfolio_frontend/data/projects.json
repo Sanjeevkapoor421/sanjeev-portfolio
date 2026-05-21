@@ -1,0 +1,54 @@
+[
+  {
+    "title": "RAG-based Document QA System",
+    "description": "Production-ready Retrieval-Augmented Generation pipeline for querying large document corpora — FAISS vector store, OpenAI embeddings, streaming responses.",
+    "tags": ["LLM", "RAG", "LangChain"],
+    "icon": "🧠",
+    "github_url": "https://github.com/",
+    "demo_url": null,
+    "stars": 120,
+    "forks": 34,
+    "language": "Python",
+    "featured": true,
+    "sort_order": 1
+  },
+  {
+    "title": "ML Model Monitoring Platform",
+    "description": "End-to-end MLOps platform for tracking experiments, monitoring model drift, and auto-retraining pipelines — deployed on Kubernetes.",
+    "tags": ["MLOps", "MLflow", "Docker"],
+    "icon": "📊",
+    "github_url": "https://github.com/",
+    "demo_url": null,
+    "stars": 87,
+    "forks": 0,
+    "language": "Python",
+    "featured": false,
+    "sort_order": 2
+  },
+  {
+    "title": "Sentiment Analysis API",
+    "description": "Fine-tuned BERT model for multi-label sentiment classification — served as a REST API with FastAPI, 94% accuracy on benchmark.",
+    "tags": ["NLP", "BERT", "HuggingFace"],
+    "icon": "🔍",
+    "github_url": "https://github.com/",
+    "demo_url": "https://huggingface.co/",
+    "stars": 65,
+    "forks": 0,
+    "language": "Python",
+    "featured": false,
+    "sort_order": 3
+  },
+  {
+    "title": "Real-Time Data Pipeline",
+    "description": "Scalable streaming data pipeline ingesting 1M+ events/hour — Apache Kafka, Spark Streaming, Delta Lake, orchestrated with Airflow.",
+    "tags": ["Data Pipeline", "Spark", "Airflow"],
+    "icon": "⚡",
+    "github_url": "https://github.com/",
+    "demo_url": null,
+    "stars": 48,
+    "forks": 0,
+    "language": "Scala / Python",
+    "featured": false,
+    "sort_order": 4
+  }
+]

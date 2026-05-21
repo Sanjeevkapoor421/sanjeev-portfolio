@@ -1,0 +1,42 @@
+[
+  {
+    "type": "work",
+    "role": "ML Engineer",
+    "company": "Your Company / Startup",
+    "start_date": "2023",
+    "end_date": null,
+    "description": "Building LLM-powered products — RAG pipelines, fine-tuning workflows, and real-time inference infrastructure.",
+    "tags": ["LLMs", "RAG", "AWS"],
+    "sort_order": 1
+  },
+  {
+    "type": "work",
+    "role": "Data Scientist",
+    "company": "Previous Company",
+    "start_date": "2021",
+    "end_date": "2023",
+    "description": "Built predictive models for churn, fraud, and recommendation systems serving millions of users.",
+    "tags": ["XGBoost", "Spark", "GCP"],
+    "sort_order": 2
+  },
+  {
+    "type": "work",
+    "role": "Data Analyst / Junior ML",
+    "company": "First Company",
+    "start_date": "2020",
+    "end_date": "2021",
+    "description": "Exploratory data analysis, dashboards, and first ML models for business forecasting.",
+    "tags": ["Python", "SQL", "Tableau"],
+    "sort_order": 3
+  },
+  {
+    "type": "education",
+    "role": "B.E. / B.Tech — CS / IT",
+    "company": "University Name, India",
+    "start_date": "2016",
+    "end_date": "2020",
+    "description": "Specialization in Data Science and Machine Learning.",
+    "tags": [],
+    "sort_order": 4
+  }
+]

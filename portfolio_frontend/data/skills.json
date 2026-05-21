@@ -1,0 +1,31 @@
+{
+  "Core": [
+    { "name": "Machine Learning",         "category": "Core", "percentage": 95 },
+    { "name": "Deep Learning / NLP",      "category": "Core", "percentage": 90 },
+    { "name": "Data Engineering",         "category": "Core", "percentage": 88 },
+    { "name": "MLOps / Model Deployment", "category": "Core", "percentage": 82 },
+    { "name": "LLM / GenAI Applications", "category": "Core", "percentage": 85 }
+  ],
+  "Languages": [
+    { "name": "Python",  "category": "Languages", "percentage": null },
+    { "name": "SQL",     "category": "Languages", "percentage": null },
+    { "name": "Scala",   "category": "Languages", "percentage": null },
+    { "name": "Bash",    "category": "Languages", "percentage": null }
+  ],
+  "ML / AI": [
+    { "name": "PyTorch",      "category": "ML / AI", "percentage": null },
+    { "name": "TensorFlow",   "category": "ML / AI", "percentage": null },
+    { "name": "Scikit-learn", "category": "ML / AI", "percentage": null },
+    { "name": "HuggingFace",  "category": "ML / AI", "percentage": null },
+    { "name": "LangChain",    "category": "ML / AI", "percentage": null },
+    { "name": "OpenAI API",   "category": "ML / AI", "percentage": null }
+  ],
+  "Data & MLOps": [
+    { "name": "Apache Spark", "category": "Data & MLOps", "percentage": null },
+    { "name": "Airflow",      "category": "Data & MLOps", "percentage": null },
+    { "name": "MLflow",       "category": "Data & MLOps", "percentage": null },
+    { "name": "Docker",       "category": "Data & MLOps", "percentage": null },
+    { "name": "Kubernetes",   "category": "Data & MLOps", "percentage": null },
+    { "name": "AWS / GCP",    "category": "Data & MLOps", "percentage": null }
+  ]
+}

@@ -161,7 +161,7 @@ const githubSvg = `<svg width="14" height="14" viewBox="0 0 24 24" fill="current
 // ── API: LOAD CONFIG ─────────────────────────────────
 async function loadConfig() {
   try {
-    const config = await fetch('/api/config').then(r => r.json());
+    const config = await fetch('/data/config.json').then(r => r.json());
 
     if (config.rotating_titles) {
       titles = config.rotating_titles.split(',').map(t => t.trim());
@@ -202,7 +202,7 @@ async function loadConfig() {
 async function loadProjects() {
   const grid = document.getElementById('projects-grid');
   try {
-    const projects = await fetch('/api/projects').then(r => r.json());
+    const projects = await fetch('/data/projects.json').then(r => r.json());
     grid.innerHTML = projects.map(p => `
       <div class="project-card ${p.featured ? 'project-card-featured' : ''}">
         ${p.featured ? '<div class="project-featured-badge">Featured</div>' : ''}
@@ -238,7 +238,7 @@ async function loadSkills() {
   const barsEl       = document.getElementById('skill-bars');
   const categoriesEl = document.getElementById('tool-categories');
   try {
-    const grouped = await fetch('/api/skills').then(r => r.json());
+    const grouped = await fetch('/data/skills.json').then(r => r.json());
 
     const core = grouped['Core'] || [];
     barsEl.innerHTML = core.map(s => `
@@ -269,7 +269,7 @@ async function loadSkills() {
 async function loadExperience() {
   const timeline = document.getElementById('timeline');
   try {
-    const items = await fetch('/api/experience').then(r => r.json());
+    const items = await fetch('/data/experience.json').then(r => r.json());
     timeline.innerHTML = items.map(item => `
       <div class="timeline-item ${item.type === 'education' ? 'timeline-edu' : ''}">
         <div class="timeline-dot ${item.type === 'education' ? 'timeline-dot-edu' : ''}"></div>
@@ -303,7 +303,7 @@ form.addEventListener('submit', async e => {
   submitBtn.disabled = true;
 
   try {
-    const res = await fetch('/api/contact', {
+    const res = await fetch('https://formspree.io/f/REPLACE_WITH_FORM_ID', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

@@ -1,0 +1,14 @@
+{
+  "stat_models": "15",
+  "stat_years": "3",
+  "stat_repos": "10",
+  "rotating_titles": "AI / ML Engineer,Data Scientist,LLM Builder,MLOps Practitioner,Open Source Contributor",
+  "availability_badge": "Open to opportunities",
+  "about_lead": "Data Engineer & ML practitioner passionate about turning raw data into production-grade intelligence.",
+  "about_bio_1": "I design end-to-end ML pipelines — from ingestion and feature engineering to model training, evaluation, and deployment. I work primarily with Python, PyTorch, and cloud-native stacks on AWS and GCP.",
+  "about_bio_2": "My recent focus is on LLM fine-tuning, RAG architectures, and making AI systems reliable in production. I enjoy writing about what I build and contributing back to the open-source community.",
+  "github_url": "https://github.com/",
+  "linkedin_url": "https://linkedin.com/",
+  "twitter_url": "https://twitter.com/",
+  "cv_url": "#"
+}
